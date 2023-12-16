@@ -87,7 +87,10 @@ pipeline {
                sh 'sudo terraform destroy --auto-approve'
         
     }
-    
+         }
+
+    }
+
      post { 
         always { 
             echo 'I will always say Hello again!'
